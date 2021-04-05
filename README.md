@@ -87,6 +87,5 @@ One Continuous Feature - Z Test or T Test
 Mean and Cont. Feature - T Test
 Two Continuous Feature - Correlation
 One Cont./Nume + Categorical(with mor than 2 categories) - ANOVA Test
-============================
 
 https://towardsdatascience.com/statistical-tests-when-to-use-which-704557554740
