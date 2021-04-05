@@ -48,9 +48,10 @@ __2. T-Test__
 - But Mean and SD are not known.
 - T-test is used to compare the mean of two given samples
 - There are three versions of t-test
-1. Independent samples t-test which compares mean for two groups
-2. Paired sample t-test which compares means from the same group at different times
-3. One sample t-test which tests the mean of a single group against a known mean.
+1. Independent samples t-test which compares mean for two groups                    (stats.ttest_ind)
+2. Paired sample t-test which compares means from the same group at different times (stats.ttest_rel(a=weight1,b=weight2) 
+3. One sample t-test which tests the mean of a single group against a known mean.   (stats.ttest_1samp) returns ttest,p_value
+                                                               
 -t = (x1 — x2) / (σ / √n1 + σ / √n2)
 
 
