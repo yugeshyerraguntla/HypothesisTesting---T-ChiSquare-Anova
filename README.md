@@ -56,7 +56,7 @@ __2. T-Test__
 
 
 __3. Chi-Square Test__
-- Chi-square test is used to compare categorical variables
+- Chi-square test is used to compare categorical variables (say A and B)(dataset_table = pd.crosstab(dataset['A'],dataset['B']));(val=stats.chi2_contingency(dataset_table)); 
 - There are two type of chi-square test
 1. Goodness of fit test, which determines if a sample matches the population.
 2. A chi-square fit test for two independent variables is used to compare two variables in a contingency table to check if the data fits.
